@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="Layout.css">
     <script src="search.js"></script>
-    <meta name="6614c291c21a8e6" content="a10596ca06ab26644981df4efe22e4fa" />
     <title>Document</title>
 </head>
 
+{% block extrahead %}
+  <meta name="6614c291c21a8e6" content="a10596ca06ab26644981df4efe22e4fa" />
+{% endblock %}
 <body>
 <div class="search-bar">
     <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="Search">
