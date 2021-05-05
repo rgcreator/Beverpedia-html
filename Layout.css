@@ -65,6 +65,9 @@ a{
 li:hover{
     border: 10px solid orange;
 }
+a:hover{
+    border: 10px solid orange;
+}
 img{
     width: 100%;
 }
